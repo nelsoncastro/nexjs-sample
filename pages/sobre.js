@@ -1,8 +1,10 @@
+import Link from 'next/link';
+
 function Sobre() {
   return (
     <div>
-      <h1>Home</h1>
-      <a href="/home">Home</a>
+      <h1>Sobre</h1>
+      <Link href="/"><a>Home</a></Link>
     </div>
   )
 }
